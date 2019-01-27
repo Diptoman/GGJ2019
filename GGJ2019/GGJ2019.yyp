@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "011da49c-9876-46e2-b0fd-0f179944081d",
+            "Value": {
+                "id": "ff2b5128-3b14-4dc0-94eb-201223d13163",
+                "resourcePath": "sounds\\snd_bg\\snd_bg.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "01a4ced3-e57f-4319-80ad-4798c3c199b4",
             "Value": {
                 "id": "e6a92e28-dd42-4a03-b126-683223b9f80c",
@@ -471,14 +479,6 @@
             }
         },
         {
-            "Key": "3a8c63be-0277-4f5f-8abc-3823949adb5d",
-            "Value": {
-                "id": "6030bec9-7204-461b-ac80-5d1d809e9ba1",
-                "resourcePath": "datafiles_yy\/Data_-_NormalCardNo.csv.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "3bda7a27-6ad6-412e-988a-aa2ca7e7fd2f",
             "Value": {
                 "id": "a639740e-d281-4b34-85ce-7329ebc3448c",
@@ -863,6 +863,14 @@
             }
         },
         {
+            "Key": "66c3af88-f389-4738-871e-aab28dc68e80",
+            "Value": {
+                "id": "9e92f65c-d957-4f72-8f63-44bef5376c4c",
+                "resourcePath": "datafiles_yy\\Data_-_NormalCardNo.csv.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "66e76e0e-4e24-4da5-b596-cc707d768070",
             "Value": {
                 "id": "70e35a68-30ad-4240-8ded-041b6ae14145",
@@ -1020,6 +1028,14 @@
                 "id": "573687b3-f96b-45ed-a6d2-f644d0c8142e",
                 "resourcePath": "views\/77edbbe8-2d6c-4748-9c75-65fae68b8463.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "793a7ec1-ec13-41cd-90e1-e85cf934c7e6",
+            "Value": {
+                "id": "48f7e858-4385-4713-b5a8-e72700aebeee",
+                "resourcePath": "datafiles_yy\\Data_-_NormalCard.csv.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1559,6 +1575,14 @@
             }
         },
         {
+            "Key": "b603cc5e-ff7e-4da5-9289-7aede5661a56",
+            "Value": {
+                "id": "12ca7386-915b-4f0a-be2b-b245f08ec225",
+                "resourcePath": "datafiles_yy\\Data_-_NormalCardYes.csv.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "b6e2d7d5-59c1-43b1-8d86-4b5c1cd34695",
             "Value": {
                 "id": "f561a04e-1beb-45b0-8e5e-62953131ca52",
@@ -1628,6 +1652,14 @@
                 "id": "acb0fb59-c797-4aa3-9d55-1bb57ac70671",
                 "resourcePath": "scripts\/CreateDeck\/CreateDeck.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ba01737f-1c9c-40ed-b2b1-897a8efd80a6",
+            "Value": {
+                "id": "5d7b000f-bea9-4a24-9423-290ad19aff9b",
+                "resourcePath": "sounds\\snd_click\\snd_click.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1791,14 +1823,6 @@
             }
         },
         {
-            "Key": "cd86f229-e7e0-4861-a2eb-4e8df3fc21f1",
-            "Value": {
-                "id": "c1c52c67-5731-450b-a20a-6f3664bc5657",
-                "resourcePath": "datafiles_yy\/Data_-_NormalCardYes.csv.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "cfb229f6-9c07-47cc-8fff-fb4c5257fc87",
             "Value": {
                 "id": "091570b8-5be1-4cea-814d-03f14609e499",
@@ -1956,14 +1980,6 @@
                 "id": "efd79ff4-205c-4e87-ab58-a0329a52b456",
                 "resourcePath": "scripts\/TweenAddCallback\/TweenAddCallback.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "dea4cd2c-6b07-42ae-94e7-3f2f4f43087b",
-            "Value": {
-                "id": "f25a6a70-2565-471c-a5c4-e7351beedd35",
-                "resourcePath": "datafiles_yy\/Data_-_NormalCard.csv.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {

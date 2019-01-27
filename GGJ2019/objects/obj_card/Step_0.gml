@@ -8,6 +8,8 @@ if (obj_cardControl.canPress)
 		obj_cardControl.currentTurnTimer = 0;
 		obj_cardControl.rest += cardNoRest;
 		
+		audio_play_sound(snd_click, 10, 0);
+		
 		SpawnText(room_width / 2 - 96 + floor(random(192)), room_height - 48, fnt_cardText, string(cardNoRest), 1.5, c_aqua, 96);
 		
 		switch(cardNoMechanicIndex)
@@ -75,6 +77,8 @@ if (obj_cardControl.canPress)
 	{
 		obj_cardControl.currentTurnTimer = 0;
 		obj_cardControl.rest += cardYesRest;
+		
+		audio_play_sound(snd_click, 10, 0);
 		
 		SpawnText(room_width / 2 - 96 + floor(random(192)), room_height - 48, fnt_cardText, string(cardYesRest), 1.5, c_aqua, 96);
 		
