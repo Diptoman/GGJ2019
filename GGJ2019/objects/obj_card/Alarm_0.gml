@@ -3,7 +3,7 @@
 
 if (int64(cardInstantRest) > 0)
 {	
-	obj_cardControl.rest += int64(cardInstantRest);
+	obj_cardControl.rest -= int64(cardInstantRest);
 	SpawnText(room_width / 2 - 96 + floor(random(192)), room_height - 48, fnt_cardText, string(cardInstantRest), 1.5, c_aqua, 96);
 }
 
