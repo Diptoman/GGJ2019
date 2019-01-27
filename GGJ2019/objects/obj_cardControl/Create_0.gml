@@ -33,3 +33,7 @@ penaltyModifier = 1;
 //Round
 turnRound = 1;
 roundTimer = 8;
+
+//Timer
+turnTimerMax = room_speed * 15;
+currentTurnTimer = -1;

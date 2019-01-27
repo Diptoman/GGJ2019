@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "170f1fb7-f0da-4665-84e0-f8b9a9a99e6d",
+            "Value": {
+                "id": "fb5005af-72a4-4519-a8dd-f9b033c40c58",
+                "resourcePath": "fonts\\fnt_bigText\\fnt_bigText.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "19780337-c0ea-4b7c-8040-d892fad12036",
             "Value": {
                 "id": "b5cd1721-f1ba-4bc2-994f-8214c3269bf1",
@@ -327,6 +335,14 @@
             }
         },
         {
+            "Key": "2c32303c-6b27-4b1b-abf9-8001bddd82cb",
+            "Value": {
+                "id": "44ce6543-c97f-4fa6-b664-37fa12c7a1ef",
+                "resourcePath": "objects\\obj_text\\obj_text.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2cbf8138-990c-4c46-8152-651d4d5aa4a2",
             "Value": {
                 "id": "04baa17b-23f8-4c41-8fb6-55869856ea04",
@@ -340,6 +356,14 @@
                 "id": "0283b30e-7040-4d67-b92a-3cf2ddcbd15b",
                 "resourcePath": "scripts\\TweenCallbackEnable\\TweenCallbackEnable.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2e1ab3f0-afdc-4724-836c-18d63448b8b5",
+            "Value": {
+                "id": "00699d61-c0ca-4e84-a88d-fd4737c7a67e",
+                "resourcePath": "extensions\\Draw_Text_Outlined\\Draw_Text_Outlined.yy",
+                "resourceType": "GMExtension"
             }
         },
         {
@@ -743,6 +767,14 @@
             }
         },
         {
+            "Key": "5f6bc43d-51de-46b7-b311-eb24aa527f96",
+            "Value": {
+                "id": "7e7b6124-2d71-4f0f-8050-e963763da8e3",
+                "resourcePath": "scripts\\SpawnText\\SpawnText.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "60a58e9e-71d4-4119-96ad-5e37d271ea23",
             "Value": {
                 "id": "c7727431-936e-454d-b2ed-e0ee0d2c67a2",
@@ -844,6 +876,14 @@
                 "id": "a4546ddd-a5f6-460a-9bee-ff43abc9632b",
                 "resourcePath": "views\/6ac84f23-5ab1-4512-a2f3-688f346373c4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6be01dc6-5f8e-4545-b971-6535d147f4e4",
+            "Value": {
+                "id": "9ad4bb4a-509c-4172-93b0-26fcfe1d46ef",
+                "resourcePath": "notes\\compatibility_report_270119_1026462646.yy",
+                "resourceType": "GMNotes"
             }
         },
         {
@@ -1895,6 +1935,14 @@
             }
         },
         {
+            "Key": "e8896e3c-2710-4af5-bdd8-87ea4ebb37c6",
+            "Value": {
+                "id": "23a78525-abf2-402f-a847-fdd0c4598dd8",
+                "resourcePath": "scripts\\draw_text_outline\\draw_text_outline.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e9884764-fdaa-4050-9c23-780236c76c9f",
             "Value": {
                 "id": "917c81cd-f74e-4ed0-b99e-796b05d631c8",
@@ -2285,7 +2333,9 @@
         "b974bf0e-2556-410f-b967-6fa23450f32d",
         "e65279a9-8671-4546-9491-d3048687ea03",
         "b5b7dae5-dea4-49b1-89a8-a2b9fadb5ea3",
-        "5a3fb6c6-ad62-4475-beea-e5086f2c7d7f"
+        "5a3fb6c6-ad62-4475-beea-e5086f2c7d7f",
+        "5f6bc43d-51de-46b7-b311-eb24aa527f96",
+        "e8896e3c-2710-4af5-bdd8-87ea4ebb37c6"
     ],
     "tutorial": ""
 }

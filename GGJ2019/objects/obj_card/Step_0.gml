@@ -7,6 +7,8 @@ if (obj_cardControl.canPress)
 	{
 		obj_cardControl.rest += cardNoRest;
 		
+		SpawnText(room_width / 2 - 96 + floor(random(192)), room_height - 48, fnt_cardText, string(cardNoRest), 1.5, c_aqua, 96);
+		
 		switch(cardNoMechanicIndex)
 		{
 			case -1:
@@ -37,6 +39,9 @@ if (obj_cardControl.canPress)
 	else if (keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D")))
 	{
 		obj_cardControl.rest += cardYesRest;
+		
+		SpawnText(room_width / 2 - 96 + floor(random(192)), room_height - 48, fnt_cardText, string(cardYesRest), 1.5, c_aqua, 96);
+		
 		switch(cardYesMechanicIndex)
 		{
 			case -1:

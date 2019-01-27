@@ -10,7 +10,7 @@ arrowLeft.arrowType = "Left";
 if (cardNoRest > 0)
 	text = "Rest increases by " + string(cardNoRest) + "%";
 else if (cardNoRest < 0)
-	text = "Rest decreases by " + string(cardNoRest) + "%";
+	text = "Rest decreases by " + string(abs(cardNoRest)) + "%";
 else if (cardNoRest == 0)
 	text = "Rest value unchanged."
 
@@ -24,7 +24,7 @@ arrowRight.arrowType = "Right";
 if (cardYesRest > 0)
 	text = "Rest increases by " + string(cardYesRest) + "%";
 else if (cardYesRest < 0)
-	text = "Rest decreases by " + string(cardYesRest) + "%";
+	text = "Rest decreases by " + string(abs(cardYesRest)) + "%";
 else if (cardYesRest == 0)
 	text = "Rest value unchanged."
 

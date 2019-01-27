@@ -13,6 +13,19 @@ else
 		rest = 40;
 	ds_grid_resize(deckForThisRound, 0, 0);
 	deckForThisRound = CreateDeck(turnRound);
+	
+	SpawnText(room_width / 2, room_height/2, fnt_bigText, "Day " + string(turnRound), 2, c_aqua, 96);
+}
+
+if (turnRound < 20)
+{
+	turnTimerMax = room_speed * ( 15 - turnRound * .5);
+	currentTurnTimer = turnTimerMax;
+}
+else
+{
+	turnTimerMax = room_speed * 5;
+	currentTurnTimer = turnTimerMax;
 }
 
 var i;
@@ -22,7 +35,7 @@ for(i = 0; i < ds_list_size(penalty); i++)
 {
 	penaltyModifier = penaltyModifier * (ds_list_find_value(penalty, i) / 100);
 	
-	show_message(string(ds_list_find_value(penalty, i)));
+	//show_message(string(ds_list_find_value(penalty, i)));
 }
 
 deckForThisRound = SpawnCard(deckForThisRound);
