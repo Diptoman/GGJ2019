@@ -16,7 +16,7 @@ if (obj_cardControl.canPress)
 			case 0:
 				break;
 			case 1:
-				obj_cardControl.deckForThisRound = AddBackIntoDeck(obj_cardControl.deckForThisRound, cardNoValue1, cardID, cardImg, cardText, cardInstantRest + cardNoValue2);
+				obj_cardControl.deckForThisRound = AddBackIntoDeck(obj_cardControl.deckForThisRound, cardNoValue1, cardID, cardImg, cardText, int64(cardInstantRest) + cardNoValue2);
 				break;
 			case 2:
 				ds_list_add(obj_cardControl.penalty, (100 - cardNoValue1));
@@ -49,7 +49,7 @@ if (obj_cardControl.canPress)
 			case 0:
 				break;
 			case 1:
-				obj_cardControl.deckForThisRound = AddBackIntoDeck(obj_cardControl.deckForThisRound, cardYesValue1, cardID, cardImg, cardText, cardInstantRest + cardYesValue2);
+				obj_cardControl.deckForThisRound = AddBackIntoDeck(obj_cardControl.deckForThisRound, cardYesValue1, cardID, cardImg, cardText, int64(cardInstantRest) + cardYesValue2);
 				break;
 			case 2:
 				ds_list_add(obj_cardControl.penalty, (100 - cardYesValue1));

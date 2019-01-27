@@ -88,6 +88,7 @@ for(i = 0; i < ds_list_size(obj_cardControl.restIncTimes); i++)
 	val = ds_list_find_value(obj_cardControl.restIncTimes, i);
 	obj_cardControl.rest += ds_list_find_value(obj_cardControl.restInc, i);
 	SpawnText(room_width / 2 - 96 + floor(random(192)), room_height - 48, fnt_cardText, string(ds_list_find_value(obj_cardControl.restInc, i)), 1.5, c_aqua, 96);
+	//show_message(string(ds_list_find_value(obj_cardControl.restInc, i)));
 	if (val == 1)
 	{
 		ds_list_delete(obj_cardControl.restInc, i);
