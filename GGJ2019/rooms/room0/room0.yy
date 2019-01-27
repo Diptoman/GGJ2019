@@ -13,8 +13,8 @@
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Player",
-            "id": "90dae15b-0b93-4f55-9eb1-d139d023e9e6",
+            "name": "Cards",
+            "id": "b045e050-d5f9-42a5-b40c-4ad80c535298",
             "depth": 0,
             "grid_x": 32,
             "grid_y": 32,
@@ -25,7 +25,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_5190727C","id": "681565ff-b390-40df-850f-cd908587c91e","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_5190727C","objId": "f4b5ddc9-f1c1-4528-8833-4cfd242f933d","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 448,"y": 288}
             ],
             "layers": [
 
@@ -39,8 +39,8 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Cards",
-            "id": "b045e050-d5f9-42a5-b40c-4ad80c535298",
+            "name": "Arrow",
+            "id": "90dae15b-0b93-4f55-9eb1-d139d023e9e6",
             "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
@@ -51,7 +51,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_5190727C","id": "681565ff-b390-40df-850f-cd908587c91e","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_5190727C","objId": "f4b5ddc9-f1c1-4528-8833-4cfd242f933d","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 448,"y": 288}
+
             ],
             "layers": [
 
