@@ -17,13 +17,19 @@ draw_set_alpha(1);
 draw_healthbar(room_width / 2 - 96, room_height - 48, room_width / 2 + 96, room_height - 32, rest, c_black, c_navy, c_navy, 0, 1, 0);
 draw_healthbar(room_width / 2 - 96, room_height - 48, room_width / 2 + 96, room_height - 32, currentRest, c_black, c_aqua, c_aqua, 0, 0, 0);
 
+draw_set_color(c_red);
+draw_rectangle(room_width / 2 - 1, room_height - 48, room_width / 2 + 1, room_height - 32, 0);
+
 //Draw timer
+draw_set_color(c_red);
 draw_healthbar(0, 0, room_width, 16, (currentTurnTimer / turnTimerMax) * 100, c_gray, c_white, c_white, 0, 1, 0);
 
 
 draw_set_color(c_black);
 draw_set_halign(fa_left);
-draw_text(20, 20, "Round " + string(turnRound) + "\n" + "Deck size " + string(ds_grid_height(deckForThisRound)));
+draw_set_valign(fa_top);
+draw_set_font(fnt_cardText);
+draw_text(10, 32, "Night " + string(turnRound) + "\nNight ends in " + string(roundTimer) + " hours");
 
 if (currentTurnTimer > 0)
 {

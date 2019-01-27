@@ -5,6 +5,15 @@ if (roundTimer > 0)
 	roundTimer -= 1;
 else
 {
+	if (rest < 50)
+	{
+		room_goto(rm_end);
+		if (turnRound < global.hiscore)
+			global.hiscore = turnRound;
+			
+		global.scr = turnRound;
+	}
+	
 	roundTimer = 8;
 	turnRound += 1;
 	if (turnRound < 10)
