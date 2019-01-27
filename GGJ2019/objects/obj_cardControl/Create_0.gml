@@ -21,7 +21,7 @@ alarm[0] = room_speed * 2;
 
 canPress = false;
 
-rest = 20;
+rest = 60;
 currentRest = rest;
 
 penalty = ds_list_create();
@@ -29,3 +29,7 @@ penaltyTimes = ds_list_create();
 restInc = ds_list_create();
 restIncTimes = ds_list_create();
 penaltyModifier = 1;
+
+//Round
+turnRound = 1;
+roundTimer = 8;

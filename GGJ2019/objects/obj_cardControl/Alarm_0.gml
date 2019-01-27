@@ -1,6 +1,20 @@
 /// @description Spawn card
 // You can write your code in this editor
 
+if (roundTimer > 0)
+	roundTimer -= 1;
+else
+{
+	roundTimer = 8;
+	turnRound += 1;
+	if (turnRound < 10)
+		rest = 60 - turnRound * 2;
+	else
+		rest = 40;
+	ds_grid_resize(deckForThisRound, 0, 0);
+	deckForThisRound = CreateDeck(turnRound);
+}
+
 var i;
 penaltyModifier = 1;
 

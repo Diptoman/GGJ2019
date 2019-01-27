@@ -7,10 +7,7 @@ var rnd = argument0;
 var numOfCards, deck, tempDeck;
 
 //Choose a number of cards to choose from
-if (rnd < 20)
-	numOfCards = 8 - floor(rnd / 4);
-else
-	numOfCards = 6;
+numOfCards = 10;
 	
 tempDeck = ds_grid_create(ds_grid_width(obj_cardControl.cardList), ds_grid_height(obj_cardControl.cardList));
 ds_grid_copy(tempDeck, obj_cardControl.cardList);

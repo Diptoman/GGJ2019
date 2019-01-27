@@ -19,3 +19,5 @@ draw_healthbar(room_width / 2 - 96, room_height - 48, room_width / 2 + 96, room_
 
 
 draw_set_color(c_black);
+draw_set_halign(fa_left);
+draw_text(20, 20, "Round " + string(turnRound) + "\n" + "Deck size " + string(ds_grid_height(deckForThisRound)));
