@@ -10,7 +10,7 @@ switch(cardYesMechanicIndex)
 		cardYesText = string(cardYesValue1) + "% increase in chance for this card to come back later this round with " + string(cardYesValue2) + "% instant rest change.";
 		break;
 	case 2:
-		cardYesText = string(cardYesValue1) + "% change in penalty for the next " + string(cardYesValue2) + " cards.";
+		cardYesText = string(cardYesValue1) + "% decrease in penalty for the next " + string(cardYesValue2) + " cards.";
 		break;
 	case 3:
 		cardYesText = string(cardYesValue1) + "% chance for the next card to be a follow-up card."
@@ -29,12 +29,12 @@ switch(cardNoMechanicIndex)
 		cardNoText = string(cardNoValue1) + "% increase in chance for this card to come back with " + string(cardNoValue2) + "% instant rest change.";
 		break;
 	case 2:
-		cardYesText = string(cardNoValue1) + "% change in penalty for the next " + string(cardNoValue2) + " cards.";
+		cardNoText = string(cardNoValue1) + "% decrease in penalty for the next " + string(cardNoValue2) + " cards.";
 		break;
 	case 3:
-		cardYesText = string(cardNoValue1) + "% chance for the next card to be a follow-up card."
+		cardNoText = string(cardNoValue1) + "% chance for the next card to be a follow-up card."
 		break;		
 	case 4:
-		cardYesText = "Rest increases by " + string(cardNoValue1) + " for the next " + string(cardNoValue2) + " cards.";
+		cardNoText = "Rest increases by " + string(cardNoValue1) + " for the next " + string(cardNoValue2) + " cards.";
 		break;
 }

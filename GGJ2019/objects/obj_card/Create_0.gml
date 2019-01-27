@@ -4,6 +4,7 @@
 cardImg = -1;
 cardID = 0;
 cardText = "";
+cardInstantRest = -1;
 cardYesText = "";
 cardNoText = "";
 cardYesMechanicIndex = -1;

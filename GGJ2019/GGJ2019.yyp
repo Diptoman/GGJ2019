@@ -663,6 +663,14 @@
             }
         },
         {
+            "Key": "5a3fb6c6-ad62-4475-beea-e5086f2c7d7f",
+            "Value": {
+                "id": "8a1aea4e-1bb9-489b-aea1-dbafec4b0472",
+                "resourcePath": "scripts\\AddBackIntoDeck\\AddBackIntoDeck.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5a978a77-dfae-4933-a848-3e0f7df4ea5f",
             "Value": {
                 "id": "ff8ed8cb-40ae-4ff1-b2f9-fe6a363dd39d",
@@ -2252,7 +2260,8 @@
         "c00cc16b-9037-4738-afaf-99d51971a32c",
         "b974bf0e-2556-410f-b967-6fa23450f32d",
         "e65279a9-8671-4546-9491-d3048687ea03",
-        "b5b7dae5-dea4-49b1-89a8-a2b9fadb5ea3"
+        "b5b7dae5-dea4-49b1-89a8-a2b9fadb5ea3",
+        "5a3fb6c6-ad62-4475-beea-e5086f2c7d7f"
     ],
     "tutorial": ""
 }

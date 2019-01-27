@@ -14,7 +14,15 @@ if (obj_cardControl.canPress)
 			case 0:
 				break;
 			case 1:
-				
+				obj_cardControl.deckForThisRound = AddBackIntoDeck(obj_cardControl.deckForThisRound, cardNoValue1, cardID, cardImg, cardText, cardInstantRest + cardNoValue2);
+				break;
+			case 2:
+				ds_list_add(obj_cardControl.penalty, (100 - cardNoValue1));
+				ds_list_add(obj_cardControl.penaltyTimes, cardNoValue2);
+				break;
+			case 4:
+				ds_list_add(obj_cardControl.restInc, cardNoValue1);
+				ds_list_add(obj_cardControl.restIncTimes, cardNoValue2);
 				break;
 		}
 		
@@ -32,6 +40,19 @@ if (obj_cardControl.canPress)
 		switch(cardYesMechanicIndex)
 		{
 			case -1:
+				break;
+			case 0:
+				break;
+			case 1:
+				obj_cardControl.deckForThisRound = AddBackIntoDeck(obj_cardControl.deckForThisRound, cardYesValue1, cardID, cardImg, cardText, cardInstantRest + cardYesValue2);
+				break;
+			case 2:
+				ds_list_add(obj_cardControl.penalty, (100 - cardYesValue1));
+				ds_list_add(obj_cardControl.penaltyTimes, cardYesValue2);
+				break;
+			case 4:
+				ds_list_add(obj_cardControl.restInc, cardYesValue1);
+				ds_list_add(obj_cardControl.restIncTimes, cardYesValue2);
 				break;
 		}
 		
