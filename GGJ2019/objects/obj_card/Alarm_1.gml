@@ -4,7 +4,7 @@
 var text;
 
 //Left arrow
-arrowLeft = instance_create_layer(x, y + 50, "Arrow", obj_arrow);
+arrowLeft = instance_create_layer(x, y - 50, "Arrow", obj_arrow);
 arrowLeft.arrowType = "Left";
 
 if (cardNoRest > 0)
@@ -18,7 +18,7 @@ arrowLeft.arrowText = text + "\n\n" + cardNoText;
 
 
 //Right arrow
-arrowRight = instance_create_layer(x, y + 50, "Arrow", obj_arrow);
+arrowRight = instance_create_layer(x, y - 50, "Arrow", obj_arrow);
 arrowRight.arrowType = "Right";
 
 if (cardYesRest > 0)

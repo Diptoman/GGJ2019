@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0023d445-b917-4f19-b829-5d148077758a",
+            "Value": {
+                "id": "d0addb79-e35f-4df7-b608-163fd49765b3",
+                "resourcePath": "sprites\\bg_line\\bg_line.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "01a4ced3-e57f-4319-80ad-4798c3c199b4",
             "Value": {
                 "id": "e6a92e28-dd42-4a03-b126-683223b9f80c",
@@ -220,6 +228,14 @@
                 "id": "48893cdf-2604-4373-afd2-e15805011ff1",
                 "resourcePath": "datafiles_yy\\Data - NormalCardYes.csv.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "24f3190f-9604-41c0-b720-08ea61347663",
+            "Value": {
+                "id": "1d218f1a-63d1-447d-bc0a-d09410866907",
+                "resourcePath": "sprites\\bg_window\\bg_window.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1540,6 +1556,14 @@
                 "id": "1d11d42f-0b9a-43ff-be5c-71b06977b51d",
                 "resourcePath": "scripts\\TGMS_UserMacros\\TGMS_UserMacros.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c0c2b79e-c12f-41c3-855d-ccbab715cf44",
+            "Value": {
+                "id": "71526e35-fbb8-48ba-bc8d-8f9984072cf0",
+                "resourcePath": "views\\c0c2b79e-c12f-41c3-855d-ccbab715cf44.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
