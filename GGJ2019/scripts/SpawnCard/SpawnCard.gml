@@ -47,7 +47,8 @@ else
 card.cardYesMechanicIndex = int64(obj_cardControl.cardYesList [# 1, index]);
 card.cardYesValue1 = int64(obj_cardControl.cardYesList [# 2, index]);
 card.cardYesValue2 = int64(obj_cardControl.cardYesList [# 3, index]);
-//card.cardYesValue3 = obj_cardControl.cardYesList [# 4, index];
+card.cardYesValue3 = obj_cardControl.cardYesList [# 4, index];
+card.cardYesImgInd = obj_cardControl.cardYesList [# 5, index];
 
 //No values
 if (int64(obj_cardControl.cardNoList [# 0, index]) < 0)
@@ -61,7 +62,8 @@ else
 card.cardNoMechanicIndex = int64(obj_cardControl.cardNoList [# 1, index]);
 card.cardNoValue1 = int64(obj_cardControl.cardNoList [# 2, index]);
 card.cardNoValue2 = int64(obj_cardControl.cardNoList [# 3, index]);
-//card.cardNoValue3 = obj_cardControl.cardNoList [# 4, index];
+card.cardNoValue3 = obj_cardControl.cardNoList [# 4, index];
+card.cardNoImgInd = obj_cardControl.cardNoList [# 5, index];
 
 ds_grid_delete_row(deck, line);
 

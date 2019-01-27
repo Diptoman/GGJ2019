@@ -17,6 +17,8 @@ cardNoRest = 0;
 cardNoValue1 = 0;
 cardNoValue2 = 0;
 cardNoValue3 = 0;
+cardYesImgInd = 0;
+cardNoImgInd = 0;
 
 alarm[0] = 1;
 alarm[1] = .5 * room_speed;
@@ -24,3 +26,7 @@ alarm[1] = .5 * room_speed;
 TweenFire(id, EaseInOutQuad, 0, true, 0, .5, y__, room_height + 480, room_height / 2 - 150);
 TweenFire(id, EaseOutQuad, 0, true, .5, .125, y__, room_height / 2 - 150, room_height / 2 - 100);
 TweenFire(id, EaseInOutQuad, 0, true, 0, .5, image_alpha__, 0, 1);
+
+obj_player.sprite_index = sSleeping;
+obj_player.image_index = 0;
+obj_player.image_speed = .5;

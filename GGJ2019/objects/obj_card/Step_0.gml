@@ -35,6 +35,34 @@ if (obj_cardControl.canPress)
 		TweenFire(id, EaseOutQuad, 0, true, 0, .5, x__, x, - 200);
 		TweenFire(id, EaseOutQuad, 0, true, 0, .4, image_alpha__, 1, 0);
 		alarm[2] = room_speed;
+		
+		switch(cardNoImgInd)
+		{
+			case "0":
+				obj_player.sprite_index = sSleeping;
+				obj_player.image_index = 0;
+				obj_player.image_speed = .5;
+				break;
+				
+			case "1":
+				obj_player.sprite_index = sSitUp;
+				obj_player.image_index = 0;
+				obj_player.image_speed = 1;
+				break;
+				
+			case "2":
+				obj_player.sprite_index = sSitUp2;
+				obj_player.image_index = 0;
+				obj_player.image_speed = 1;
+				break;
+				
+			case "3":
+				obj_player.sprite_index = sLeaveBed;
+				obj_player.image_index = 0;
+				obj_player.image_speed = 1;
+				break;
+		}
+		
 	}
 	else if (keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D")))
 	{
@@ -68,5 +96,32 @@ if (obj_cardControl.canPress)
 		TweenFire(id, EaseOutQuad, 0, true, 0, .5, x__, x, room_width + 200);
 		TweenFire(id, EaseOutQuad, 0, true, 0, .4, image_alpha__, 1, 0);
 		alarm[2] = room_speed;
+		
+		switch(cardYesImgInd)
+		{
+			case "0":
+				obj_player.sprite_index = sSleeping;
+				obj_player.image_index = 0;
+				obj_player.image_speed = .5;
+				break;
+				
+			case "1":
+				obj_player.sprite_index = sSitUp;
+				obj_player.image_index = 0;
+				obj_player.image_speed = 1;
+				break;
+				
+			case "2":
+				obj_player.sprite_index = sSitUp2;
+				obj_player.image_index = 0;
+				obj_player.image_speed = 1;
+				break;
+				
+			case "3":
+				obj_player.sprite_index = sLeaveBed;
+				obj_player.image_index = 0;
+				obj_player.image_speed = 1;
+				break;
+		}
 	}
 }

@@ -1,7 +1,7 @@
 /// @description Initialize cards
-cardList = load_csv("Data - NormalCard.csv");
-cardYesList = load_csv("Data - NormalCardYes.csv");
-cardNoList = load_csv("Data - NormalCardNo.csv");
+cardList = load_csv("Data_-_NormalCard.csv");
+cardYesList = load_csv("Data_-_NormalCardYes.csv");
+cardNoList = load_csv("Data_-_NormalCardNo.csv");
 cardChainList = load_csv("Data - ChainedCard.csv");
 cardChainYesList = load_csv("Data - ChainedCardYes.csv");
 cardChainNoList = load_csv("Data - ChainedCardNo.csv");
