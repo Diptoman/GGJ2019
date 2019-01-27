@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "12b0689c-2f33-47ac-b742-c88d4a34d3fc",
+            "Value": {
+                "id": "bca84823-44d9-4d5f-9872-e9c521f7e99e",
+                "resourcePath": "sprites\\spr_cardimgs\\spr_cardimgs.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "12e5da87-12e7-4d24-b8ff-7d962f59b147",
             "Value": {
                 "id": "01fc8dc2-9b86-4b82-b12c-24d29c3ce03a",
@@ -1866,7 +1874,7 @@
             "Key": "d6e4ca5f-b475-41c4-ab63-8f681c93bc84",
             "Value": {
                 "id": "00216598-a338-4c62-b52f-d6973645d1fe",
-                "resourcePath": "sprites\/ToiletPapper\/ToiletPapper.yy",
+                "resourcePath": "sprites\\ToiletPaper\\ToiletPaper.yy",
                 "resourceType": "GMSprite"
             }
         },

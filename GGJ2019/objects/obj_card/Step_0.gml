@@ -46,18 +46,24 @@ if (obj_cardControl.canPress)
 				break;
 				
 			case "1":
-				obj_player.sprite_index = sSitUp;
+				obj_player.sprite_index = sAwake;
 				obj_player.image_index = 0;
 				obj_player.image_speed = 1;
 				break;
 				
 			case "2":
-				obj_player.sprite_index = sSitUp2;
+				obj_player.sprite_index = sSitUp;
 				obj_player.image_index = 0;
 				obj_player.image_speed = 1;
 				break;
 				
 			case "3":
+				obj_player.sprite_index = sSitUp2;
+				obj_player.image_index = 0;
+				obj_player.image_speed = 1;
+				break;
+				
+			case "4":
 				obj_player.sprite_index = sLeaveBed;
 				obj_player.image_index = 0;
 				obj_player.image_speed = 1;
@@ -108,18 +114,24 @@ if (obj_cardControl.canPress)
 				break;
 				
 			case "1":
-				obj_player.sprite_index = sSitUp;
+				obj_player.sprite_index = sAwake;
 				obj_player.image_index = 0;
 				obj_player.image_speed = 1;
 				break;
 				
 			case "2":
-				obj_player.sprite_index = sSitUp2;
+				obj_player.sprite_index = sSitUp;
 				obj_player.image_index = 0;
 				obj_player.image_speed = 1;
 				break;
 				
 			case "3":
+				obj_player.sprite_index = sSitUp2;
+				obj_player.image_index = 0;
+				obj_player.image_speed = 1;
+				break;
+				
+			case "4":
 				obj_player.sprite_index = sLeaveBed;
 				obj_player.image_index = 0;
 				obj_player.image_speed = 1;
