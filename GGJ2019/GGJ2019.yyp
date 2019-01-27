@@ -287,6 +287,22 @@
             }
         },
         {
+            "Key": "20335497-de5d-4edc-afa2-431b9d20f19d",
+            "Value": {
+                "id": "12444577-d6cb-4deb-94fa-fbb2cdc9e426",
+                "resourcePath": "datafiles_yy\\Data_-_NormalCardNo.csv.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "21052941-6371-4214-ac55-08289377d872",
+            "Value": {
+                "id": "5bbc3280-fcb9-4c16-83b4-5992aed1126c",
+                "resourcePath": "datafiles_yy\\Data_-_NormalCardYes.csv.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "24f3190f-9604-41c0-b720-08ea61347663",
             "Value": {
                 "id": "1d218f1a-63d1-447d-bc0a-d09410866907",
@@ -420,6 +436,14 @@
                 "id": "00699d61-c0ca-4e84-a88d-fd4737c7a67e",
                 "resourcePath": "extensions\/Draw_Text_Outlined\/Draw_Text_Outlined.yy",
                 "resourceType": "GMExtension"
+            }
+        },
+        {
+            "Key": "309cc521-eda8-42a2-8fc6-90f47c7a86e7",
+            "Value": {
+                "id": "ef5ea55e-eaa3-4920-9899-d33dd06c1ace",
+                "resourcePath": "datafiles_yy\\Data_-_NormalCard.csv.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -887,14 +911,6 @@
             }
         },
         {
-            "Key": "66c3af88-f389-4738-871e-aab28dc68e80",
-            "Value": {
-                "id": "9e92f65c-d957-4f72-8f63-44bef5376c4c",
-                "resourcePath": "datafiles_yy\\Data_-_NormalCardNo.csv.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "66e76e0e-4e24-4da5-b596-cc707d768070",
             "Value": {
                 "id": "70e35a68-30ad-4240-8ded-041b6ae14145",
@@ -1052,14 +1068,6 @@
                 "id": "573687b3-f96b-45ed-a6d2-f644d0c8142e",
                 "resourcePath": "views\/77edbbe8-2d6c-4748-9c75-65fae68b8463.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "793a7ec1-ec13-41cd-90e1-e85cf934c7e6",
-            "Value": {
-                "id": "48f7e858-4385-4713-b5a8-e72700aebeee",
-                "resourcePath": "datafiles_yy\\Data_-_NormalCard.csv.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1604,14 +1612,6 @@
                 "id": "3e449038-36da-4384-87a2-67acf305ced9",
                 "resourcePath": "scripts\/SpawnCard\/SpawnCard.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "b603cc5e-ff7e-4da5-9289-7aede5661a56",
-            "Value": {
-                "id": "12ca7386-915b-4f0a-be2b-b245f08ec225",
-                "resourcePath": "datafiles_yy\\Data_-_NormalCardYes.csv.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
