@@ -20,7 +20,7 @@ else
 		rest = 60 - turnRound * 2;
 	else
 		rest = 40;
-	ds_grid_resize(deckForThisRound, 0, 0);
+	ds_grid_destroy(deckForThisRound);
 	deckForThisRound = CreateDeck(turnRound);
 	
 	SpawnText(room_width / 2, room_height/2, fnt_bigText, "Day " + string(turnRound), 2, c_aqua, 96);

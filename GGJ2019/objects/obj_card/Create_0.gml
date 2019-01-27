@@ -1,6 +1,8 @@
 /// @description Init
 // You can write your code in this editor
 
+audio_play_sound(snd_cardShow, 10, 0);
+
 cardImg = -1;
 cardID = 0;
 cardText = "";

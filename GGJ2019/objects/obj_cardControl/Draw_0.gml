@@ -22,7 +22,7 @@ draw_rectangle(room_width / 2 - 1, room_height - 48, room_width / 2 + 1, room_he
 
 //Draw timer
 draw_set_color(c_red);
-draw_healthbar(0, 0, room_width, 16, (currentTurnTimer / turnTimerMax) * 100, c_gray, c_white, c_white, 0, 1, 0);
+draw_healthbar(0, 0, room_width, 16, (currentTurnTimer / turnTimerMax) * 100, c_dkgray, c_gray, c_gray, 0, 1, 0);
 
 
 draw_set_color(c_black);
