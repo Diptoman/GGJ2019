@@ -12,6 +12,9 @@ draw_set_font(fnt_bigText);
 draw_set_color(c_black);
 draw_text(room_width / 2, room_height / 2 - 16, "Press any key to start");
 
+draw_set_font(fnt_smolText);
+draw_text(room_width / 2, room_height / 2 + 240, "Made for GGJ Vancouver 2019 by:\nDiptoman Mukherjee(Programming, Design)\nYang Liu (Design)\nDavid Hinds (Art)\nMusic from Newgrounds: 8-Bit Town Theme - emilyomily");
+
 global.scr = 0;
 global.hiscore = 0;
 

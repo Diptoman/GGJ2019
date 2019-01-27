@@ -1215,6 +1215,14 @@
             }
         },
         {
+            "Key": "87118b08-66da-459b-9a98-712bbd9b7389",
+            "Value": {
+                "id": "dd27e9d9-5cc5-48cc-a14d-95b8e883179b",
+                "resourcePath": "fonts\\fnt_smolText\\fnt_smolText.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "876cd78d-237e-4334-8bee-0de4446ee2a5",
             "Value": {
                 "id": "f37c3c57-9061-43bd-aa6c-c82b69f3c310",
